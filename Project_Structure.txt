@@ -1,0 +1,20 @@
+
+## Project Structure
+
+Indiamart-data-Pipeline/
+│
+├── Scraper.py # Selenium-based Alibaba scraper
+├── clean_data.py # Data cleaning & transformation (ETL)
+├── eda_analysis.py # Exploratory Data Analysis (EDA)
+├── requirements.txt # Python dependencies
+│
+├── data/
+│ ├── raw/
+│ │ └── alibaba_raw.json
+│ └── processed/
+│ └── alibaba_clean.csv
+│
+├── reports/
+│ └── top_keywords.png # EDA visualization
+│
+└── README.md
